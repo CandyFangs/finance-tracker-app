@@ -15,10 +15,24 @@
  *= require_tree .
  *= require_self
  */
-.results-block {
+ 
+
+ .results-block {
   display: inline-block;
 }
 
 .no-padding {
   padding: 0 !important;
+}
+
+.left-padding {
+  padding-left: 15px !important;
+}
+
+.logout {
+  padding-left: 0;
+}
+
+.user-name {
+  padding-top: 15px;
 }
